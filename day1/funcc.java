@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class func {
+public class funcc {
     public static void main(String args[]) {
         if (1>=0){
         System.out.println("hello");
@@ -119,6 +119,10 @@ public class func {
         // Example of a method with a loop and a return value
         int hemloAgain = hemlo();
         System.out.println("Result of hemlo method again: " + hemloAgain);
+        // Example of a method with a loop and a return value
+        int hemloYetAgain = hemlo();
+        System.out.println("Result of hemlo method yet again: " + hemloYetAgain);
+        // Example of a method with a loop and a return value
 
     } 
 
@@ -176,6 +180,5 @@ public class func {
 
     public static int hemlo() {
         return 0; // Placeholder for future implementation
-    }
-   
+    }   
 }
